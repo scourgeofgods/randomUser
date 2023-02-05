@@ -1,0 +1,43 @@
+$enable-negative-margins: true;
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.card {
+  position: relative;
+  padding: 20px 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 1px rgb(0 0 0 / 50%);
+  overflow: hidden;
+  text-align: center;
+  z-index: 5;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    top: 0;
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    z-index: -1;
+  }
+}
+.mt-n10 {
+  margin-top: -130px;
+}
+.icon {
+  border: none;
+  outline: none;
+  background: lightgray;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: auto;
+  transition: all 0.45s ease-out;
+
+  &:hover {
+    color: red;
+    border: 1px solid gray;
+  }
+}
