@@ -68,7 +68,7 @@ function App() {
       <div className="vh-100 container">
         <div className="row h-50 bg-danger"></div>
         <div className="row h-50 mt-n10 justify-content-center ">
-          <div className="col-md-6">
+          <div className="col-md-8">
             <div className="card h-100">
               <div className="card-image">
                 <img
@@ -79,7 +79,7 @@ function App() {
                 />{' '}
                 <p className="text-uppercase">{title}</p>
                 <p className="text-capitalize">{value}</p>
-                <div className="values-list d-flex justify-content-center w-50 mx-auto ">
+                <div className="values-list d-flex justify-content-center w-75 mx-auto ">
                   <button
                     className="icon"
                     data-label="name"
