@@ -79,7 +79,7 @@ function App() {
                 />{' '}
                 <p className="text-uppercase">{title}</p>
                 <p className="text-capitalize">{value}</p>
-                <div className="values-list d-flex justify-content-center w-75 mx-auto ">
+                <div className="values-list d-flex justify-content-center w-50 mx-auto ">
                   <button
                     className="icon"
                     data-label="name"
