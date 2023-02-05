@@ -11518,7 +11518,7 @@ textarea.form-control-lg {
 }
 
 .mt-n10 {
-  margin-top: -130px;
+  margin-top: -200px;
 }
 
 .icon {
@@ -11526,8 +11526,8 @@ textarea.form-control-lg {
   outline: none;
   background: lightgray;
   border-radius: 50%;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 4rem;
+  height: 4rem;
   margin: auto;
   transition: all 0.45s ease-out;
 }

@@ -66,7 +66,7 @@ function App() {
   return (
     <main className="main">
       <div className="vh-100 container-fluid">
-        <div className="row h-50 bg-danger">1</div>
+        <div className="row h-50 bg-danger"></div>
         <div className="row h-50 mt-n10 justify-content-center ">
           <div className="col-md-6">
             <div className="card h-100">
@@ -75,7 +75,7 @@ function App() {
                   src={(person && person.image) || defaultImage}
                   alt=""
                   className="rounded-circle border-5 border p-2"
-                  style={{ width: 140, heigth: 140 }}
+                  style={{ width: 150, heigth: 150 }}
                 />{' '}
                 <p className="text-uppercase">{title}</p>
                 <p className="text-capitalize">{value}</p>
