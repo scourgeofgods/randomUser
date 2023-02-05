@@ -72,7 +72,7 @@ function App() {
             <div className="card h-100">
               <div className="card-image">
                 <img
-                  src={person.image || defaultImage}
+                  src={(person && person.image) || defaultImage}
                   alt=""
                   className="rounded-circle border-5 border p-2"
                   style={{ width: 140, heigth: 140 }}
