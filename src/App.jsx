@@ -65,7 +65,7 @@ function App() {
 
   return (
     <main className="main">
-      <div className="vh-100 container-fluid">
+      <div className="vh-100 container">
         <div className="row h-50 bg-danger"></div>
         <div className="row h-50 mt-n10 justify-content-center ">
           <div className="col-md-6">
